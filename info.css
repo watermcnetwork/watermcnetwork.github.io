@@ -51,43 +51,47 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-#server-ip .feature-card {
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f7f7f7;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+#server-ip .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#server-ip .feature-card h3 {
+#server-ip .ip-card {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+#server-ip .ip-card h3 {
     color: #1a73e8;
     font-size: 1.8rem;
 }
 
-#server-ip .feature-card p {
+#server-ip .ip-card p {
     font-size: 1rem;
     margin-bottom: 10px;
 }
 
-#server-ip .feature-card a {
-    font-size: 1.2rem;
-    color: #1a73e8;
-    text-decoration: none;
+#server-ip .ip-container {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 1.4rem;
     font-weight: bold;
-    border: 2px solid #1a73e8;
-    padding: 10px 20px;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid #ddd;
+    color: #333;
 }
 
-#server-ip .feature-card a:hover {
-    background-color: #1a73e8;
-    color: white;
+#server-ip .ip-container span {
+    color: #1a73e8;
 }
 
-#server-ip .feature-card:hover {
+#server-ip .ip-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
