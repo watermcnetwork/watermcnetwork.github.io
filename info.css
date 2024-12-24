@@ -42,50 +42,6 @@ header {
     color: #ffcc00;
 }
 
-/* Sección IP del Servidor */
-#server-ip {
-    background-color: #ffcc00;
-    padding: 20px;
-    margin: 30px 0;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 1.5rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#server-ip h3 {
-    margin-bottom: 10px;
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-#server-ip p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-#server-ip a {
-    font-size: 1.3rem;
-    color: #1a73e8;
-    text-decoration: none;
-    font-weight: bold;
-    border: 2px solid #1a73e8;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-#server-ip a:hover {
-    background-color: #1a73e8;
-    color: white;
-}
-
-#server-ip:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
 /* Sección de Características */
 #details {
     padding: 40px 20px;
@@ -126,6 +82,54 @@ header {
 
 .feature-card:hover {
     transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de IP del Servidor */
+#server-ip {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#server-ip .ip-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+#server-ip .ip-card h3 {
+    color: #1a73e8;
+    font-size: 1.8rem;
+}
+
+#server-ip .ip-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#server-ip .ip-container {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+#server-ip .ip-container span {
+    color: #1a73e8;
+}
+
+#server-ip .ip-card:hover {
+    transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
