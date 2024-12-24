@@ -96,6 +96,36 @@ header {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Nuevo card con la IP en el centro debajo */
+#info-ip {
+    margin-top: 40px;
+}
+
+#info-ip .container {
+    display: flex;
+    justify-content: center;
+}
+
+#info-ip .feature-card {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+#info-ip .feature-card h3 {
+    color: #1a73e8;
+    font-size: 1.8rem;
+}
+
+#info-ip .feature-card p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
 /* Sección de Características */
 #details {
     padding: 40px 20px;
